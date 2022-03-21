@@ -1,0 +1,8 @@
+b1=input()
+b2=input()
+b3=input()
+b4=input()
+b5=input()
+b6=input()
+aa=(b1+' '+b2+' '+b3+' '+b4+' '+b5+' '+b6)
+print(aa)
