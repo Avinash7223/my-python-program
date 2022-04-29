@@ -1,4 +1,4 @@
-'''Create a function which accepts two inputs from the user and computer nCr'''
+'''1.Create a function which accepts two inputs from the user and computer nCr'''
 import math
 def my_cnr(n,r):
   a = math.factorial(n)

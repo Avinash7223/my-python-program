@@ -1,19 +1,14 @@
-'''Given a list of numbers of list, write a Python program to create a list of tuples 
+'''8.Given a list of numbers of list, write a Python program to create a list of tuples 
 having first element as the number and second element as the square of the 
 number'''
 
-lister = []
+list1= []
 total = int(input("Enter number of elements : "))
 for i in range(0, total):
-	num = int(input())
-	lister.append(num) 
-	
-print(lister)
+	num = int(input("enter the value {} :".format(i)))
+	list1.append(num) 
+print(list1)
 
-tuple = ()
-for i in lister:
-  numa=i*i
-  tuple.append(numa)
-    
-print(tuple)
+result = [(val, pow(val, 2)) for val in list1]
+print(result)
     

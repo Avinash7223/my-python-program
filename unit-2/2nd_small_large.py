@@ -1,4 +1,4 @@
-'''Program to find the second smallest number and second largest number in a list'''
+'''7.Program to find the second smallest number and second largest number in a list'''
 list = []
 total = int(input("Enter number of elements : "))
 for i in range(0, total):

@@ -1,4 +1,4 @@
-'''Recusive fuction to compute GCD of 2 number'''
+'''2.Recusive fuction to compute GCD of 2 number'''
 import math
 
 def gcd(n,r):

@@ -1,4 +1,4 @@
-'''program to get the difference between the two lists'''
+'''6.program to get the difference between the two lists'''
 
 list1 = []
 total1 = int(input("Enter number of elements of list 1 : "))

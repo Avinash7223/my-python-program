@@ -1,4 +1,4 @@
-'''Recusive function to find product of two numbers'''
+''3.'Recusive function to find product of two numbers'''
 
 def product(n,r):
   a = n*r
