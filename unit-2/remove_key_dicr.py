@@ -10,3 +10,5 @@ for i in range(n):
 print(dic)
 dic.pop(input("enter the key to be removed : "))
 print(dic)
+
+

@@ -24,5 +24,3 @@ if total1==total2:
 else:
   print("Invalid")
     
-    
-        
