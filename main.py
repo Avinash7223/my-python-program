@@ -1,12 +1,14 @@
-"""14.	Program for Counting occurrence of a certain element in a string, getting indexes that have matching elements.For ex -.In Rabbit count how many times b has occurred . Example-I have to go to a doctor and get myself checked. Count the number of occurrences of ‘to’"""
+'''
+ 13.	Program to perform operations on string using unicodes ,splitting of string,accessing   elements of string using locations
 
-line=input("enter the statment:")
+'''
+x=input("enter the statement:")
+#operations on string using unicodes
+print("The unicodes:",(id(x)))
 
-count=0
-x=input("enter the charater:")
+print("the length of the string:",len(x))
+#splitting of string
+print(x.split(input("enter char to splitting :")))
 
-for i in line:
-    if i == x :
-        count=count+1
-        
-print("the number of charater ",count)
+#accessing   elements of string using locations
+print(x[int(input("enter the number:"))])

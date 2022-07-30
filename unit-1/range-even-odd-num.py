@@ -6,8 +6,8 @@ for x in range(0, num):
   if x%2==0:
    print(x)
    count1=count1+1
-count2=0
 
+count2=0
 print('For odd numbers:-')
 for x in range(0, num):
   if x%2!=0:

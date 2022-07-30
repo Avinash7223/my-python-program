@@ -10,3 +10,14 @@ for i in range(0,len(x)):
 
 print("The generated Acronym :",z.upper())
 
+"""
+st=input("name: ")
+x=st.split(" ")
+z=""
+print(x)
+for i in x:
+    y=i[0]
+    print(y)
+    z=z+y
+print(z.upper())
+"""
